@@ -3,6 +3,7 @@ Demo for Fresco, using Android Studio IDE
 
 # key point
 1. add dependency ```compile 'com.facebook.fresco:fresco:0.9.0+' ```
+2. init fresco when app startup ```Fresco.initialize(this); ```
 2. modify layout xml
  ```xml
        <com.facebook.drawee.view.SimpleDraweeView
